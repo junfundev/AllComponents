@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  NetworkEngine
+//  PagerView
 //
-//  Created by lijunfeng on 2019/7/22.
+//  Created by lijunfeng on 2019/8/8.
 //  Copyright © 2019 lijunfeng. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ApiDomain.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Override point for customization after application launch.
     return YES;
 }
 

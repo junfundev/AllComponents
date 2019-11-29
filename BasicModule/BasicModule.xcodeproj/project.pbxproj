@@ -96,6 +96,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		915D61012303E4B2000A2DDC /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 		91B8E88A22E4ABC700F73430 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +159,7 @@
 		91B8E8C822E4AC0300F73430 /* Classess */ = {
 			isa = PBXGroup;
 			children = (
+				915D61012303E4B2000A2DDC /* UIViewController */,
 				91B8E8C922E4AC0300F73430 /* UIView */,
 				91B8E8DA22E4AC0300F73430 /* UIDevice */,
 				91B8E8DD22E4AC0300F73430 /* NSObject */,
@@ -179,8 +187,8 @@
 		91B8E8DA22E4AC0300F73430 /* UIDevice */ = {
 			isa = PBXGroup;
 			children = (
-				91B8E8DB22E4AC0300F73430 /* UIDevice+Category.m */,
 				91B8E8DC22E4AC0300F73430 /* UIDevice+Category.h */,
+				91B8E8DB22E4AC0300F73430 /* UIDevice+Category.m */,
 			);
 			path = UIDevice;
 			sourceTree = "<group>";
@@ -188,8 +196,8 @@
 		91B8E8DD22E4AC0300F73430 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				91B8E8DE22E4AC0300F73430 /* NSObject+WakeUpMainThread.m */,
 				91B8E8DF22E4AC0300F73430 /* NSObject+WakeUpMainThread.h */,
+				91B8E8DE22E4AC0300F73430 /* NSObject+WakeUpMainThread.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";

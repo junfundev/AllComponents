@@ -89,14 +89,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-# s.source_files  = "Classes", "Classes/**/*.{h,m}"
-# s.exclude_files = "Classes/Exclude"
 
-    s.subspec 'AFNetworking' do |afn|
-        afn.source_files = 'NetworkEngine/Classess/**/*'
-    end
-
-  # s.public_header_files = "Classes/**/*.h"
+#   s.source_files  = 'NetworkEngine/Classess/**/*'
+#   s.dependency 'AFNetworking','3.2.1'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
